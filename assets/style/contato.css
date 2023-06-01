@@ -1,0 +1,105 @@
+:root {
+    --black: #000;
+    --text-1: #fff;
+    --text-2: #b2b2b2;
+    --btn-background-color-1: #fbb803;
+    --btn-color-1: #000;
+    --background-black: #111111;
+}
+  
+
+
+body {
+    background-color: var(--black);
+   font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span{
+    color: var(--text-1);
+    margin: 0px;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+ul {
+    display: flex;
+    margin: 0;
+    top: 17px;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-between;
+}
+
+li {    
+    list-style-type: none;
+    font-size: 16px;
+    cursor: pointer;        
+}
+a {
+    text-decoration: none;
+    color: var(--text-1);
+}
+.text-yellow {
+    color: var(--btn-background-color-1);
+}
+
+.titulo-bg{
+    background-color: var(--background-black);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.text-res{
+    color: var(--text-2);
+    font-weight: 500;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 4px;
+}
+.text-cont{
+    font: "Poppins", sans-serif;
+}
+.titulo-container{
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+#contato{
+    display: block;
+}
+.card-1{
+background-color: var(--black);
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); ;
+}
+.card-body-1{
+    padding: 60px;
+    color: var(--text-1);
+}
+.card-body-2{
+    background-color: #000;
+}
+.loja-online{
+    margin-bottom: 60px;
+}
+#enderecos{
+    margin-bottom: 32px;
+    padding-left: 28px;
+    
+}
+.img-endereco{
+    margin-right: 10px;
+}
